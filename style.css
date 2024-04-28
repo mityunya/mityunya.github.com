@@ -1,0 +1,155 @@
+body {
+	background-image: url(background.jpg);
+	padding: 0;
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	padding: 0;
+	margin: 0;
+}
+
+.ebala {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: black;
+}
+
+.ebala .volga {
+	color: grey;
+	width: 100px;
+	height: 50px;
+	/* border: 2px solid red; */
+}
+
+.logo {
+	width: 100px;
+}
+
+.homebutton {
+	width: 50px;
+	height: 50px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.page {
+	flex-direction: column;
+	max-width: 1000px;
+	/* background-color: aqua; */
+	/*пока не надо*/
+}
+
+.navbar {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+
+}
+
+.service td {
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	padding: 5px 25px;
+}
+
+.service .info {
+	font-size: 30px;
+}
+
+.navmenu {
+	display: flex;
+	justify-content: center;
+	height: 30px;
+	width: 100%;
+
+}
+
+.navmenu .button {
+	width: 100px;
+	height: 30px;
+	border: 0px;
+	background-color: white;
+	font-size: 13px;
+}
+
+.navmenu .button:hover {
+	cursor: help;
+	background-color: grey;
+}
+
+.navmenu .button.first {
+	border-top-left-radius: 10px;
+}
+
+.navmenu .button.last {
+	border-top-right-radius: 10px;
+}
+
+.content {
+	width: 1000px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.main h1 {
+	padding: 10px;
+	font-size: 19px;
+}
+
+.main p1 {
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+	font-size: 17px;
+}
+
+/*О нас*/
+.aboutuspagecontent {
+	display: flex;
+	max-width: 1000px;
+	padding: 10px;
+}
+
+.contacts {
+	padding: 10px;
+}
+
+.contactsh1 {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+/*Схемы*/
+.schemecontent {
+	display: flex;
+	justify-content: center;
+	/* max-width: 1000px; */
+}
+
+.schemecontentimg {
+	/* padding: 20px; */
+	width: 247px;
+	height: 180px;
+}
+
+@media screen and (max-width:720px) {
+
+	.blocklist {
+		flex-wrap: wrap !important;
+	}
+
+	.content {
+		width: 700px;
+	}
+}
